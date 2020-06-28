@@ -1,0 +1,327 @@
+* {
+    box-sizing :border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+nav {
+    background-color: #333;
+    overflow: auto;
+    
+   
+}
+
+#div1 li {
+list-style: none;
+float:left;
+
+}
+
+
+nav li a {
+   text-decoration: none;
+   color: white;
+   padding:25px;
+   display: block;
+   
+   
+}
+#HBT {
+   float:left;
+   padding-left:25px;
+   
+   
+
+}
+h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#HBT a {
+    text-decoration: none;
+    color: white;
+}
+
+#div1 {
+    float:right;
+    
+}
+
+nav li a:hover {
+    background-color:#444;
+    color: f7c08a;
+}
+#current {
+    background-color:#444;
+    color: f7c08a;
+}
+
+.container {
+ margin:auto;
+ max-width:1050;
+ 
+
+}
+
+#middle {
+    background: url('../showcase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:600px;
+    text-align: center;
+    padding-top:200px;
+    color: white;
+}
+
+#middle p {
+   font-size: 20px;
+    margin-bottom: 20;
+   
+}
+#middle h1 {
+    
+    font-size: 50;
+}
+
+#middle span {
+    color: #f7c08a;
+}
+
+.btn {
+    padding: 20 40;
+    background-color: #333;
+    cursor: pointer;
+    font-size: 15px;
+    border: none; 
+    color:white;
+}
+
+.btn:hover {
+    background-color: #f7c08a;
+
+}
+
+#img1 {
+    background-image: url(../photo-1.jpg);
+    width:50%;
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left;
+    
+}
+
+#second_text span {
+    color: #f7c08a;
+}
+
+#second_text {
+    background-color: #333;
+    text-align: center;
+    padding-top: 70px;
+    height: 400px;
+    color: white;
+    float: right;
+    width: 50%;
+    padding-left:40px;
+    padding-right:40px;
+    
+    overflow: hidden;
+
+}
+
+
+
+
+#btn2{
+margin-top: 45px;
+color: black;
+background-color: white;
+}
+
+#btn2:hover{
+    background-color: #f7c08a;
+}
+
+.F-block {
+   
+    text-align: center;
+    
+    padding:80px;
+    margin: auto;
+    line-height: 2em;
+    overflow: hidden;
+    width: 33%;
+    
+}
+
+#second-block {
+    background: #f7c08a;
+    float:left;
+}
+
+#first-block {
+    float: left;
+}
+
+
+#footer {
+    padding:25px;
+    background-color: #333;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+#middle1 h1 span {
+    color: #f7c08a;
+}
+
+#middle1 p span {
+    display: block;
+    margin-top:10px;
+}
+
+
+#teqsti {
+    width:50%;
+    float:left;
+    line-height: 1.6em;
+    padding: 30px 20px 20px 25px;
+    height: 300px;
+    display:block;
+    min-height: 100%;
+    
+}
+
+.img22 {
+    border-radius: 50%;
+    width:70%;
+    margin:auto;
+    display:block;
+    
+
+}
+
+#middle1 {
+    
+    margin:auto;
+    max-width:1100px;
+    overflow:auto;
+    padding:0 20px;
+    height:320px;
+
+    
+}
+
+#img2 {
+    width:50%;
+    float:right;
+    min-height:100%;
+    padding-top:23px;
+}
+
+.meore-about {
+    background-color: darkgrey;
+}
+
+#aboutsc{
+    background: url('../test-bg.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#aboutsc img {
+    width:70px;
+    border-radius:50%;
+    float:left;
+    margin-right: 20px;
+    
+    
+}
+
+#aboutsc h1 {
+    text-align: center;
+    padding-top:60px;
+    font-size:30;
+    color: white;
+
+}
+
+.aboutsc {
+    padding: 20px;
+    margin: 40px;
+    background: #f7c08a;
+    color: #333;
+    
+    
+    
+    
+    
+}
+.aboutsc1 {
+    padding: 20px;
+    margin: 40px;
+    background: #f7c08a;
+    color: #333;
+    
+    
+   
+}
+
+
+.info {
+    text-align:
+
+}
+#kon {
+    margin: auto;
+    max-width: 1100px;
+   
+}
+
+#aboutsc p {
+    margin-top:5px;
+}
+
+
+label {
+    margin-bottom: 10px;
+    display:block;
+    margin-top: 5px;
+    
+
+}
+
+input, textarea {
+    width:100%;
+    border: solid 2px #ddd;
+    padding: 10px;
+    
+}
+
+.info button {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+input:focus, textarea:focus {
+    outline:none;
+    border-color: red;
+}
+
+.info {
+    max-width:1050px;
+    margin:auto;
+}
+
+.contact-logos {
+    background-color: gray;
+}
+
